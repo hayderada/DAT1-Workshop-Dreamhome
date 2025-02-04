@@ -15,7 +15,8 @@ CREATE TABLE EmployeeID (
 );
 
 --insert data into the table
-INSERT INTO EmployeeID (SalesPerson, SalesOffice, OfficeNumber, Customer1, Customer2, Customer3)
+INSERT INTO EmployeeID (EmployeeID, SalesPerson, SalesOffice, OfficeNumber, Customer1, Customer2, Customer3)
 VALUES  ('1003','Mary Smith', 'Chicago', '312-555-1212', 'Ford', 'GM', ''),
-        ('1003','John Hunt', 'New york, '212-555-1212', 'Dell', 'HP', 'Apple'),
-        ('1003','Martin Hap', 'Chicago', '212-555-1212', 'Boeing', '', '');
+        ('1004','John Hunt', 'New York', '312-555-1212', 'Dell', 'HP', ''),
+        ('1005','Martin Hap', 'Chicago', '312-555-1212', 'Boeing', '' ,'' )
+
