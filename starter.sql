@@ -1,6 +1,6 @@
 .open dreamhome.sqlite
-.mode column
-
-SELECT *
-FROM branch;
-
+.mode box
+ 
+SELECT propertyno, type, rooms
+FROM propertyforrent
+ORDER BY type, rooms DESC;
